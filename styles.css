@@ -529,6 +529,24 @@ strong { color: var(--brand); }
 }
 .button:hover { background: var(--brand-dark); color: #fff; }
 
+.button--ad {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border-radius: 999px;
+  padding: 9px 20px 9px 18px;
+  font-size: var(--fs-sm);
+  box-shadow: 0 2px 8px rgba(76,17,48,0.28);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+.button--ad svg { width: 14px; height: 14px; flex: none; transition: transform 0.15s ease; }
+.button--ad:hover {
+  background: var(--brand-bright);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(76,17,48,0.36);
+}
+.button--ad:hover svg { transform: translateX(2px); }
+
 /* editorial helper for placeholders you should fill in */
 .todo {
   background: #fffbe6;
