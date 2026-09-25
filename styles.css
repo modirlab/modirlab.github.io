@@ -361,6 +361,19 @@ strong { color: var(--brand); }
 }
 .pub-extra { font-style: normal; }
 
+.pub-badge {
+  display: inline-block;
+  margin: 4px 0 0 1rem;
+  padding: 1px 10px;
+  background: var(--brand-tint);
+  color: var(--brand);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 0.7rem;
+  letter-spacing: 0.02em;
+  border-radius: 999px;
+}
+
 /* ---------- Homepage figure (robot + brain mark) --------------------------- */
 .home-figure {
   margin: 2rem 0;
