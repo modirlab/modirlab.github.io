@@ -1,6 +1,6 @@
 // Single source of truth for site-wide values. Edit here to update everywhere.
 const CV_URL = "people/alireza/cv.pdf";
-const CONTACT_EMAIL = "alireza.modirshanechi@gmail.com";
+const CONTACT_EMAIL = "alireza.modirshanechi@uni-goettingen.de";
 
 document.querySelectorAll('[data-cv-link]').forEach(el => { el.href = CV_URL; });
 document.querySelectorAll('[data-contact-email]').forEach(el => { el.href = `mailto:${CONTACT_EMAIL}`; });
