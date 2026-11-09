@@ -595,3 +595,22 @@ strong { color: var(--brand); }
   .people-grid { grid-template-columns: 1fr; }
   .pi-links { grid-template-columns: 1fr; }
 }
+
+/* ---------- Find us page ------------------------------------------------- */
+.map-embed {
+  display: block;
+  width: 100%;
+  height: 340px;
+  border: 0;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+.photo-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+@media (max-width: 640px) {
+  .photo-pair { grid-template-columns: 1fr; }
+}
+.photo-pair img { height: 100%; object-fit: cover; }
