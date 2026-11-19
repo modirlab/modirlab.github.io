@@ -614,3 +614,17 @@ strong { color: var(--brand); }
   .photo-pair { grid-template-columns: 1fr; }
 }
 .photo-pair img { height: 100%; object-fit: cover; }
+
+/* ---------- Icon links on People cards ---------------------------------- */
+.icon-links {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+.icon-links a { border-bottom: 0; line-height: 0; opacity: 0.85; transition: opacity 0.15s ease, transform 0.15s ease; }
+.icon-links a:hover { opacity: 1; transform: translateY(-1px); }
+.icon-links img { width: 20px; height: 20px; }
+.person .affil { font-size: var(--fs-sm); color: var(--ink-soft); font-style: italic; }
+.person .about { font-size: var(--fs-sm); margin-top: 6px; }
+.people-section { margin-top: 2.4rem; }
